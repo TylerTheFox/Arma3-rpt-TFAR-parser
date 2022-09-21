@@ -29,7 +29,7 @@ rptparse::rptparse(int argument_count, const char * argument_list[])
 	if (EXPECTED_ARGUMENT_COUNT != argument_count)
 	{
 		print_copyright();
-		throw std::runtime_error("Invalid arguments received.  Expected arguments:\nrptparse.exe <input-rpt> <output-csv>");
+		throw std::runtime_error("Invalid arguments received.  Expected arguments:\nrptparse.exe <input-rpt> <output-csv>\n");
 	}
 
 	myParseFile = argument_list[INPUT_RPT_FILENAME];
