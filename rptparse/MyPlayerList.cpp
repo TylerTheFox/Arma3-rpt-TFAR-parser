@@ -3,7 +3,6 @@
 	DATE : September 20, 2022
 	NAME : MyPlayerList
 */
-#pragma once
 #include "MyPlayerList.h"
 
 #include <filesystem>

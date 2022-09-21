@@ -7,6 +7,7 @@
 
 #include <fstream>
 #include <sstream>
+#include <vector>
 
 std::unordered_multimap<std::string, std::string> parser::parse(const std::string & fname)
 {
