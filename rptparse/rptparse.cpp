@@ -18,7 +18,7 @@ void rptparse::print_copyright()
 		<< "Build date: " << __DATE__ << " -- " << __TIME__ << "\n\n";
 }
 
-rptparse::rptparse(const unsigned int argument_count, const char * argument_list[])
+rptparse::rptparse(unsigned int argument_count, const char * argument_list[])
 {
 	const unsigned int EXPECTED_ARGUMENT_COUNT = 3;
 
@@ -51,7 +51,7 @@ int rptparse::run()
 	return EXIT_CODES::SUCCESS;
 }
 
-int main(const unsigned int argument_count, const char* argument_list[])
+int main(const int argument_count, const char* argument_list[])
 {
 	try {
 		rptparse program(argument_count, argument_list);

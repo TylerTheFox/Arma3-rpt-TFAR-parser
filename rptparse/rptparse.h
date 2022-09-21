@@ -23,7 +23,7 @@ public:
 	/*
 		Process the commandline arguments
 	*/
-	rptparse(const unsigned int argument_count, const char* argument_list[]);
+	rptparse(const int argument_count, const char* argument_list[]);
 
 	/*
 		Entry point of the program called from main, returns a status code of success
